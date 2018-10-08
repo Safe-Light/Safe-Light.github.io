@@ -6,17 +6,36 @@
 </head>
 
 <body>
+
 <h1>What can safelight do?</h1>
 <p>Click on any tab to learn more.</p>
 
-<h2> Warn you when you are about to hit a yellow light</h2>
+<div>
+<button class="tabButton" onclick="openFeature('warnYellow')"> Warn you when you are about to hit a yellow light</button>
 
-<h2> Countdown until the next green light </h2>
+<button class="tabButton" onclick="openFeature('nextGreen')"> Countdown until the next green light </button>
 
-<h2>Mutes audio when an emergency vehicle is approching</h2>
+<button class="tabButton" onclick="openFeature('muteAudio')">Mutes audio when an emergency vehicle is approching</button>
+</div>
 
+
+<div id="warnYellow" class="content">
+<h3> Warn you when you are about to hit a yellow light</h3>
+<p>SafeLight is capable of calculating weather or not it is safe to continue through a yellow light or weather it would be preferable to stop.
+This warning would help reduce drivers' anxiety and prevent poor decision making that could cause a driver to run a red light</p>
+</div>
+
+<div id="nextGreen" class ="content">
+<h3> Countdown until the next green light</h3>
+<p> Safelight, being connected to nearby traffic lights, is able to display the time in seconds until your next green light. This makes intersections a more predictable experience</p>
+</div>
+
+<div id="muteAudio" class="content">
+<h3> Mutes audio when an emergency vehicle is approching </h3>
+<p> SafeLight can detect nearby emergency vehicles. SafeLight mutes all car audio, when an emergy vehicle is in range. SafeLight could then be an important tool for first responders.</p>
+</div>
+
+<script src="Features.js"></script>
 </body>
-
-
 
 </html>
