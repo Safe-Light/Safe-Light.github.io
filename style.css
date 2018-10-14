@@ -1,0 +1,19 @@
+body:{
+	font 15px/1.5 Arial,Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color: #fff
+
+}
+
+/*Global*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/* Header **/
+header{
+	background:#fff;
+}
