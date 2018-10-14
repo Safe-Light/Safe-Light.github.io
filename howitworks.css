@@ -1,3 +1,17 @@
-#Heading h1 {
-	color: orange;
+h1 {
+	color: black;
+	text-align: center;
+}
+
+p {
+	margin: 20px;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#inside_car {
+	height: 60%;
+	width: 60%;
 }
