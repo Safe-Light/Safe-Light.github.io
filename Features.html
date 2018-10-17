@@ -22,11 +22,11 @@
 			
 	  </div>
 	  <!-- Main title -->
-      <h1 id="Title">What can Safe Light do?</h1>
+      <h1 id="Title">What can safelight do?</h1>
       <p>Click on any tab to learn more.</p>
 	  
 	  <div class="raised">
-      <!-- Buttons for tabs -->
+		  <!-- Buttons for tabs -->
 		  <div>
 			 <button class="tabButton" onclick="openFeature('warnYellow')"> Warn you when you are about to hit a yellow light</button>
 			 <button class="tabButton" onclick="openFeature('nextGreen')"> Countdown until the next green light </button>
@@ -36,11 +36,18 @@
 		  <!-- Tabs that buttons control -->
 		  <div id="warnYellow" class="content">
 			 <h3> Warn you when you are about to hit a yellow light</h3>
-			 <p>Approaching an intersection as the traffic light turns yellow can be a stressful experience.
+			 <div class="animation">
+				<img src="pictures/red car.png" id="warnYellowCar" alt="A red cartoon car" height="75px">
+			</div>
+			 <p class="tabText">	
+				
+				Approaching an intersection as the traffic light turns yellow can be a stressful experience.
 				In only a split second we expect drivers to calculate whether they should attempt to stop or continue through the intersection.
 				Making the wrong choice could result in an unsafely abrupt stop or driving through a red light. 
 				Safe Light lightens the load by making this calculation for you, helping you be a better, safer driver.
 			 </p>
+			 
+			 
 		  </div>
 		  
 		  <div id="nextGreen" class ="content">
@@ -59,7 +66,8 @@
 				Safe Light then improves safety for those who aren’t even on the road by helping emergency responders get to them faster.
 			 </p>
 		  </div>
-	    </div>
+	  </div>
+	  
 	  <a href="howitworks.html" class="HeaderButtons">How it works</a>
 	  <!-- Page footer -->
 	  <div id="footer">
