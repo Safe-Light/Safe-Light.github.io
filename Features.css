@@ -27,6 +27,17 @@
 	
 	
 }
+/*
+.trafficLight{
+	position: absolulte;
+	top: 5px;
+	bottom:150px;
+	left:300px;
+	right:10px;
+	z-index:-1;
+
+}
+*/
 .raised{
 	box-shadow: 5px 5px 10px grey;
 	border-style: solid;
@@ -38,7 +49,11 @@
 	border : solid black;
 	vertical-align: middle;
 	float : right;
+	padding: 50px, 20px, -10px, 100px;
 }
 .tabText{
+	display: inline;
+}
+.tabTitle{
 	display: inline;
 }
