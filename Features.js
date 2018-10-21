@@ -7,7 +7,7 @@ var openFeature = function(feature){
 			contents[i].style.display = "none";
 		}
 		else{
-			contents[i].style.display = "table";
+			contents[i].style.display = "block";
 		}
 	}
 
