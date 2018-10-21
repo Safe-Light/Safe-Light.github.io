@@ -1,5 +1,4 @@
-var tester = document.getElementById("warnYellow");
-tester.style.backgroundColor = "red";
+
 var openFeature = function(feature){
 
 	var contents = document.getElementsByClassName("content");
@@ -8,7 +7,7 @@ var openFeature = function(feature){
 			contents[i].style.display = "none";
 		}
 		else{
-			contents[i].style.display = "block";
+			contents[i].style.display = "table";
 		}
 	}
 

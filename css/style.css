@@ -1,0 +1,153 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:95%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.container h1{
+	text-align: center;
+}
+
+.container section h1{
+	padding-top:70px;
+}
+.container section{
+	margin-bottom:100px;
+}
+
+.navbar{
+	background-color: #fff;
+	width:100%;
+	margin:auto;
+	position: fixed;
+	top:0;
+	padding-left: 20px;
+	overflow:hidden;
+}
+.navbar a{
+ 	float: left;
+ 	display: inline-block;
+ 	color: #000;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ 	font-size: 17px;
+ 	transition: all 0.2s ease;
+}
+.navbar a:hover {
+	background:#b3b3b3;
+}
+#logo{
+	float:left;
+	padding:3px 10px 0px 3px;
+}
+.showcase{
+	background-image:url('../pictures/Main-Page.png');
+	background-position:center;
+	min-height:100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 90vh;
+}
+
+#headline{
+	color:white;
+	font-size:60px;
+	text-shadow: 4px 4px #000;
+	display:flex;
+	flex: 0 1 40vw;
+	height: 90vh;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+}
+
+.main{
+	width:100%;
+	padding:0 30px;
+}
+
+.main h1{
+	text-align: center;
+}
+.featureVid{
+
+	float:right;
+	display : block;
+	vertical-align:middle;
+	
+}
+
+
+#main-footer{
+	background: #333;
+	padding:20px;
+	margin-top:40px;
+	color:#fff;
+	text-align: center;
+}
+
+@media(max-width:510px){
+	#F{
+		visibility: hidden;
+	}
+	#How{
+		visibility: hidden;
+	}
+	#C{
+		visibility: hidden;
+	}
+	.navbar a{
+		padding: 14px 0px;
+	}
+	.navbar a:hover{
+		background-color:#fff;
+	}
+
+		
+}
+.tabButton{
+	
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom:0px solid black;
+}
+
+.buttonGroup{
+	
+	justify-content: center;
+
+	
+	display : flex;
+}
+.content{
+	display : none;
+	border: 1px solid black;
+	overflow: auto;
+	vertical-align: center;
+	margin-left:6%;
+	margin-right:6%;
+	
+}
+.tabtext{
+	dislpay : table-cell;
+	
+	
+}
