@@ -81,13 +81,6 @@ body{
 .main h1{
 	text-align: center;
 }
-.featureVid{
-
-	float:right;
-	vertical-align: top;
-	border: 1px solid grey;
-	
-}
 
 
 #main-footer{
@@ -168,17 +161,15 @@ body{
 	box-shadow: 3px 3px 10px grey;
 	
 }
-.tabtext{
-	
-	
-	margin-right: 20%;
 
+.featureVid{
+
+	float:right;
+	vertical-align: top;
+	border: 1px solid grey;
 	
 }
-.tabTitle{
-	margin-top: 5%;
-	justify-content:center;
-}
+
 h2 {
 	text-align:center;
 	font-size: 15px;
