@@ -229,3 +229,67 @@ body{
     border-radius: 1px;
 	margin-bottom: 20px;
 }
+.tabButton{
+	
+    padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 24px;
+	padding-left:24px;
+    
+	display:block;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	color: dark grey;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom:0px solid black;
+	cursor : pointer;
+}
+.greenButton.active,.greenButton:hover{
+  background-color: #2ef255;
+  color: black;
+}
+
+.yellowButton.active,.yellowButton:hover{
+  background-color: #efdd10;
+  color: black;
+}
+
+.redButton.active,.redButton:hover{
+  background-color: #ef4628;
+  color: black;
+}
+
+
+.buttonGroup{
+	
+	justify-content: center;
+	display : flex;
+	
+}
+.content{
+	display : none;
+	border: 1px solid black;
+	overflow: auto;
+	margin-left:6%;
+	margin-right:6%;
+
+	padding : 1%;
+	background-color:#f9f9f9;
+	box-shadow: 3px 3px 10px grey;
+	
+}
+
+.featureVid{
+
+	float:right;
+	vertical-align: top;
+	border: 1px solid grey;
+	
+}
+
+h2 {
+	text-align:center;
+	font-size: 15px;
+}
