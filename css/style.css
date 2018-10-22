@@ -119,24 +119,42 @@ body{
 }
 .tabButton{
 	
-    padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 3px;
-	padding-left:3px;
+    padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 24px;
+	padding-left:24px;
     
-	display:flex;
+	display:block;
 	align-items: center;
 	justify-content: center;
+	font-weight: 500;
+	color: dark grey;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 	border-bottom:0px solid black;
+	cursor : pointer;
 }
+.greenButton.active,.greenButton:hover{
+  background-color: #2ef255;
+  color: black;
+}
+
+.yellowButton.active,.yellowButton:hover{
+  background-color: #efdd10;
+  color: black;
+}
+
+.redButton.active,.redButton:hover{
+  background-color: #ef4628;
+  color: black;
+}
+
 
 .buttonGroup{
 	
 	justify-content: center;
 	display : flex;
-	margin-bottom:0px;
+	
 }
 .content{
 	display : none;
@@ -144,10 +162,10 @@ body{
 	overflow: auto;
 	margin-left:6%;
 	margin-right:6%;
-	margin-top:0px;
+
 	padding : 1%;
 	background-color:#f9f9f9;
-	box-shadow: 5px 5px 10px grey;
+	box-shadow: 3px 3px 10px grey;
 	
 }
 .tabtext{

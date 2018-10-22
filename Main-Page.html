@@ -52,9 +52,9 @@
 			<div class="raised">
 		  <!-- Buttons for tabs -->
 		  <div class="buttonGroup">
-			 <button class="tabButton" onclick="openFeature('warnYellow')"> Warn you when you are about to hit a yellow light</button>
-			 <button class="tabButton" onclick="openFeature('nextGreen')"> Countdown until the next green light </button>
-			 <button class="tabButton" onclick="openFeature('muteAudio')">Mutes audio when an emergency vehicle is approching</button>
+			 <button class="tabButton greenButton" onclick="openFeature('warnYellow')"> Warn you if you should stop or not at a yellow light</button>
+			 <button class="tabButton yellowButton" onclick="openFeature('nextGreen')"> Countdown until the next green light </button>
+			 <button class="tabButton redButton" onclick="openFeature('muteAudio')">Mutes audio when an emergency vehicle is approching</button>
 		  </div>
 		  <br>
 		  <!-- Tabs that buttons control -->
@@ -93,6 +93,9 @@
 		  </div>
 		  
 		  <div id="muteAudio" class="content">
+		  <video class="featureVid" width="400px" height = "267px" muted loop autoplay>
+					<source src="videos/Mute.mp4" type="video/mp4" >
+			    </video>
 			 <h3> Mutes audio when an emergency vehicle is approching </h3>
 			 <p> 
 				Safe Light is capable of communicating with more than just traffic lights. The same communication technology we put in traffic lights can also be put in emergency vehicles. 
