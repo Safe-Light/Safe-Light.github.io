@@ -6,7 +6,10 @@ body{
 	line-height:1.6em;
 	margin:0;
 }
-
+p {
+	margin-right:5%;
+	margin-left:5%;
+}
 .container{
 	width:95%;
 	margin:auto;
