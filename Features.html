@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title> Features </title>
+      <link rel="stylesheet" type="text/css" href="Features.css">
+   </head>
+   
+   <body>
+   
+      <!-- Header -->
+	  <div id="Header">
+			<img id="Logo" src="pictures/Safe Light Logo.png" alt="The Safe Light Logo">
+			<div id="HeaderButtons">
+				<a href="Main-Page.html" class="HeaderButtons">Home</a>
+				<a href="Features.html" class="HeaderButtons">Features</a>
+				<a href="howitworks.html" class="HeaderButtons">How it works</a>
+				<a href="Businesindex.html" class="HeaderButtons">Buisness</a>
+				<a href="ContactUs.html" class="HeaderButtons">Contact us</a>
+			
+			</div>
+			
+	  </div>
+	  <!-- Main title -->
+      <h1 id="Title">What can safelight do?</h1>
+      <p>Click on any tab to learn more.</p>
+	  
+      <!-- Buttons for tabs -->
+      <div>
+         <button class="tabButton" onclick="openFeature('warnYellow')"> Warn you when you are about to hit a yellow light</button>
+         <button class="tabButton" onclick="openFeature('nextGreen')"> Countdown until the next green light </button>
+         <button class="tabButton" onclick="openFeature('muteAudio')">Mutes audio when an emergency vehicle is approching</button>
+      </div>
+	  
+      <!-- Tabs that buttons control -->
+      <div id="warnYellow" class="content">
+         <h3> Warn you when you are about to hit a yellow light</h3>
+         <p>Approaching an intersection as the traffic light turns yellow can be a stressful experience.
+            In only a split second we expect drivers to calculate whether they should attempt to stop or continue through the intersection.
+            Making the wrong choice could result in an unsafely abrupt stop or driving through a red light. 
+            Safe Light lightens the load by making this calculation for you, helping you be a better, safer driver.
+         </p>
+      </div>
+	  
+      <div id="nextGreen" class ="content">
+         <h3> Countdown until the next green light</h3>
+         <p> 
+            Not a lot is more irritating when driving then waiting for a traffic light that just won’t turn green. While we can’t change when it’s your turn, we can make it a more predictable experience. 
+            Safe Light displays a countdown until the next green light corresponding to your lane, determined by your car’s signal.
+         </p>
+      </div>
+	  
+      <div id="muteAudio" class="content">
+         <h3> Mutes audio when an emergency vehicle is approching </h3>
+         <p> 
+            Safe Light is capable of communicating with more than just traffic lights. The same communication technology we put in traffic lights can also be put in emergency vehicles. 
+            This allows Safe Light to mute the car`s audio and play a warning noise when a police car, firetruck or ambulance is approaching.
+            Safe Light then improves safety for those who aren’t even on the road by helping emergency responders get to them faster.
+         </p>
+      </div>
+	  
+	  <a href="howitworks.html" class="HeaderButtons">How it works</a>
+	  <!-- Page footer -->
+	  <div id="footer">
+		<p>
+		Contact us:<br>
+		Email : SafeLight@domain.com<br>
+		Telephone : 613-555-1234<br>
+		This website is a student project made for the UOttawa SEG-2900 course
+		</p>
+	  </div>
+	  <!-- Script -->
+      <script src="Features.js"></script>
+   </body>
+</html>

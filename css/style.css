@@ -116,19 +116,27 @@ p {
 
 .howitworksimg {
 	display: block;
+	float: right;
 	margin-left: auto;
 	margin-right: auto;
-
+	border-radius: 50%;
 }
 
 #inside_car {
-	height: 45%;
-	width: 45%;
+	height: 25%;
+	width: 25%;
+	position: relative;
+	right: 20%;
 }
 
 #traffic_light {
-	height: 45%;
-	width: 45%;
+	height: 25%;
+	width: 25%;
+	position: relative;
+	float: left;
+	left: 270px;
+	padding-top: 25px;
+
 }
 
 #contact {
@@ -136,6 +144,31 @@ p {
 	
 }
 
+#how p {
+	padding: 5px;
+}
+
+#p1 {
+/*	border: solid black 1px; */
+}
+
+#p1text {
+	position: relative;
+	margin-right: 75%;
+	left: 20%;
+	padding-top: 30px;
+
+}
+#p2 {
+	padding-top: 20px;
+/*	border: solid black 1px; */
+}
+
+#p2text {
+	position: relative;
+	margin-left: 70%;
+	right: 15%
+}
 /* Contact Flipping images */
 /*------------Wrapper------------*/
 .flipWrapper {
