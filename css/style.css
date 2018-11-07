@@ -126,6 +126,7 @@ p {
 	height: 25%;
 	width: 25%;
 	position: relative;
+	z-index: -1;
 	right: 20%;
 }
 
@@ -136,6 +137,7 @@ p {
 	float: left;
 	left: 270px;
 	padding-top: 25px;
+	z-index: -1;
 
 }
 
@@ -149,6 +151,7 @@ p {
 }
 
 #p1 {
+	padding-top: 20px;
 /*	border: solid black 1px; */
 }
 
@@ -157,17 +160,19 @@ p {
 	margin-right: 75%;
 	left: 20%;
 	padding-top: 30px;
+	z-index: -1;
 
 }
 #p2 {
-	padding-top: 20px;
+	padding-top: 75px;
 /*	border: solid black 1px; */
 }
 
 #p2text {
 	position: relative;
 	margin-left: 70%;
-	right: 15%
+	right: 170px;
+	z-index: -1;
 }
 /* Contact Flipping images */
 /*------------Wrapper------------*/
