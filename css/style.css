@@ -35,6 +35,7 @@ body{
 	top:0;
 	padding-left: 20px;
 	overflow:hidden;
+	z-index: 1000000;
 }
 .navbar a{
  	float: left;
@@ -180,6 +181,7 @@ body{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 .flipWrapper > * {
@@ -227,10 +229,12 @@ body{
 	text-decoration: none;
 	color: black;
 	margin-top: 4px;
+	z-index: -1;
 }
 
 .fa:hover, .fa-github:hover, .fa-linkedin-square:hover, .i:hover {
     opacity: 0.7;
+	
 }
 
 .fa-github {
@@ -246,6 +250,7 @@ body{
 
 /*Contact Input field*/
 .ContactField {
+	
 	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
