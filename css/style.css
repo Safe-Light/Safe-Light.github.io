@@ -112,39 +112,42 @@ body{
 		background-color:#fff;
 	}
 
-		
+
 }
 
 .howitworksimg {
-	display: block;
-	float: right;
+/*	display: block; */
+/*	float: right; */
+	vertical-align: middle;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
 }
 
 #inside_car {
+	vertical-align: middle;
 	height: 25%;
 	width: 25%;
+	float: right;
 	position: relative;
 	z-index: -1;
 	right: 20%;
 }
 
 #traffic_light {
+	vertical-align: middle;
 	height: 25%;
 	width: 25%;
+	float:left;
 	position: relative;
-	float: left;
-	left: 270px;
-	padding-top: 25px;
+	left: 20%;
 	z-index: -1;
 
 }
 
 #contact {
-	text-align:center; 
-	
+	text-align:center;
+
 }
 
 #how p {
@@ -160,19 +163,20 @@ body{
 	position: relative;
 	margin-right: 75%;
 	left: 20%;
-	padding-top: 30px;
+	margin-top: auto;
 	z-index: -1;
 
 }
 #p2 {
-	padding-top: 75px;
+	padding-top: 10%;
 /*	border: solid black 1px; */
 }
 
 #p2text {
 	position: relative;
 	margin-left: 70%;
-	right: 170px;
+	right: 15%;
+	margin-top: auto;
 	z-index: -1;
 }
 /* Contact Flipping images */
@@ -234,7 +238,7 @@ body{
 
 .fa:hover, .fa-github:hover, .fa-linkedin-square:hover, .i:hover {
     opacity: 0.7;
-	
+
 }
 
 .fa-github {
@@ -250,7 +254,7 @@ body{
 
 /*Contact Input field*/
 .ContactField {
-	
+
 	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
@@ -261,15 +265,15 @@ body{
 }
 
 .message {
-	height: 90px; 
-	width: 400px; 
-	margin-top: 5%; 
+	height: 90px;
+	width: 400px;
+	margin-top: 5%;
 }
 
 .send {
-	padding: 7px; 
-	display: block; 
-	margin: 0 auto; 
+	padding: 7px;
+	display: block;
+	margin: 0 auto;
 	background-color: #BFBFBF;
 	border: none;
     border-radius: 1px;
@@ -281,12 +285,12 @@ body{
 
 
 .tabButton{
-	
+
     padding-top: 25px;
 	padding-bottom: 25px;
 	padding-right: 24px;
 	padding-left:24px;
-    
+
 	display:block;
 	align-items: center;
 	justify-content: center;
@@ -314,10 +318,10 @@ body{
 
 
 .buttonGroup{
-	
+
 	justify-content: center;
 	display : flex;
-	
+
 }
 .content{
 	display : none;
@@ -327,7 +331,7 @@ body{
 	margin-right:6%;
 	padding: 1%;
 	padding-left: 3%;
-	
+
 	background-color:#f9f9f9;
 	box-shadow: 3px 3px 10px grey;
 }
@@ -337,12 +341,12 @@ body{
 	vertical-align: top;
 	border: 1px solid grey;
 	float: right;
-	
+
 }
 
 .tabText{
 	margin-right: 2%;
-	
+
 }
 
 h2 {
